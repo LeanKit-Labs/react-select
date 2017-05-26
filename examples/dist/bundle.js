@@ -270,7 +270,7 @@ function defaultChildren(props) {
 }
 module.exports = exports['default'];
 
-},{"./Select":"react-select","./utils/stripDiacritics":10,"prop-types":undefined,"react":undefined}],2:[function(require,module,exports){
+},{"./Select":"@lk/react-select","./utils/stripDiacritics":10,"prop-types":undefined,"react":undefined}],2:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -337,7 +337,7 @@ var AsyncCreatable = (0, _createReactClass2['default'])({
 
 module.exports = AsyncCreatable;
 
-},{"./Select":"react-select","create-react-class":undefined,"react":undefined}],3:[function(require,module,exports){
+},{"./Select":"@lk/react-select","create-react-class":undefined,"react":undefined}],3:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -667,7 +667,7 @@ function shouldKeyDownEventCreateNewOption(_ref6) {
 
 module.exports = Creatable;
 
-},{"./Select":"react-select","./utils/defaultFilterOptions":8,"./utils/defaultMenuRenderer":9,"create-react-class":undefined,"prop-types":undefined,"react":undefined}],4:[function(require,module,exports){
+},{"./Select":"@lk/react-select","./utils/defaultFilterOptions":8,"./utils/defaultMenuRenderer":9,"create-react-class":undefined,"prop-types":undefined,"react":undefined}],4:[function(require,module,exports){
 'use strict';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -1071,7 +1071,7 @@ module.exports = function stripDiacritics(str) {
 	return str;
 };
 
-},{}],"react-select":[function(require,module,exports){
+},{}],"@lk/react-select":[function(require,module,exports){
 /*!
   Copyright (c) 2016 Jed Watson.
   Licensed under the MIT License (MIT), see
